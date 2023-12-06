@@ -140,13 +140,13 @@
 //     case 9:
 //       resault += "to'qson";
 //       break;
-  
+
 //     default:
 //       resault = "Ushbu operatsiani bajarish mumkin emas !!!"
 //       break;
 //   }
 // console.log(resault);
-//    qo'shimcha dars 
+//    qo'shimcha dars
 
 // let a = 9;
 // let b = 10;
@@ -163,7 +163,6 @@
 //  }
 //  console.log(sum)
 
-
 // let a = 20;
 // let sum = 1;
 // for( let i = 1 ; i <= a; i++ ){
@@ -173,7 +172,6 @@
 // }
 // console.log(sum);
 
-
 // let n = 30;
 // let count = 0;
 
@@ -181,7 +179,6 @@
 // count = count + n;
 // }
 // console.log(count);
-
 
 // let n = 30;
 // let sum = 0;
@@ -215,8 +212,7 @@
 // }
 // console.log(sum);
 
-
-//                            qiziqarli ketmaketlik 
+//                            qiziqarli ketmaketlik
 
 // let n = 4;
 // let res;
@@ -230,16 +226,11 @@
 // }
 // console.log(res);
 
-
 //            g'aroyib yig'indi
 
 // let a = 10;
 // let b = 15;
 // let sum = 0;
-
-// for()
-
-
 // robocontest dan misollar
 
 // 1-misol 1% li
@@ -249,20 +240,66 @@
 // let sum = a + b;
 // console.log(sum);
 
-
-
-
-
-
-
 //4-oy 6-dars vazifasi
 
-let a = 10;
-let sum = 0;
 
-for(let i = 1; i <= a; i++){
-if(i % 2 == 0){
-  sum = sum + 1; 
+
+//1-misol
+
+// let a = 10;
+// let sum = 0;
+// let i = 1;
+
+// while (i <= a) {
+//   if (i % 2 == 0) {
+//     sum++;
+//     sum + sum + i;
+//   }
+//   i++;
+// }
+// console.log(sum);
+
+//2-misol
+
+// let a = 10;
+// let i = 1;
+// let sum = 1;
+// while(i <= a){
+//   i++;
+//   if(i % 3 == 0){
+//     sum = sum * i;
+//   }
+// } 
+// console.log(sum)
+
+
+//3-misol
+let a = 15;
+let b = 10;
+let i = 0;
+let count = 0;
+while(i <= a){
+  i++;
+  if(i % 3 == 0 ){
+    count++;
+  }
 }
+while(i <= a){
+  i++;
+  if(i % 7 == 0 ){
+    count++;
+  }
 }
-console.log(sum)
+while(i <= b){
+  i++;
+  if(i % 3 == 0 ){
+    count++;
+  }
+}
+while(i <= b){
+  i++;
+  if(i % 7 == 0 ){
+    count++;
+  }
+}
+console.log(count)
